@@ -120,3 +120,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: _site
+          cname: banoskostas.com
