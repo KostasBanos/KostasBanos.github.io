@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: PROJECTS
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: true
+description: Research projects in machine learning, computational finance, and AI applications, plus entrepreneurial ventures.
+nav: false
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, entrepreneurship]
 horizontal: false
 ---
 

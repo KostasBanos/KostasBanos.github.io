@@ -1,0 +1,57 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign presentations = data[1] %}
+  {% for content in presentations %}
+    <li class="list-group-item">
+      <div class="row">
+        {%- comment -%} Compute a date string similar to publications {%- endcomment -%}
+        {% assign date = '' %}
+        {% if content.releaseDate and content.releaseDate != '' %}
+          {% assign date = content.releaseDate | split: '-' | join: '.' %}
+        {% elsif content.highlights and content.highlights.size > 0 %}
+          {% assign firstHighlight = content.highlights | first %}
+          {% assign parts = firstHighlight | split: ',' %}
+          {% if parts.size > 1 %}
+            {% assign date = parts | last | strip %}
+          {% else %}
+            {% assign date = firstHighlight | strip %}
+          {% endif %}
+        {% endif %}
+
+        <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+          <table class="table-cv">
+            <tbody>
+              <tr>
+                <td>
+                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          <h6 class="title font-weight-bold ml-1 ml-md-4">
+            {% if content.url and content.url != '' %}
+              <a href="{{ content.url }}">{{ content.name }}</a>
+            {% else %}
+              {{ content.name }}
+            {% endif %}
+          </h6>
+          {% if content.description %}
+            <div class="ml-1 ml-md-4">{{ content.description }}</div>
+          {% endif %}
+          {% if content.highlights %}
+            <ul class="items ml-1 ml-md-4">
+              {% for item in content.highlights %}
+                {% assign suffix = ', ' | append: date %}
+                {% assign cleaned = item | replace: suffix, '' %}
+                <li><span class="item">{{ cleaned }}</span></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
