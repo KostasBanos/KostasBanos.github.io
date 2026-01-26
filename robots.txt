@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://banoskostas.com/sitemap.xml
+Sitemap: https://kostasbanos.github.io/sitemap.xml
