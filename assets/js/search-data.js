@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/empty-post/";
           
         },
+      },{id: "post-advanced-statistical-modeling-diagnostics-and-simulations",
+        
+          title: 'Advanced Statistical Modeling, Diagnostics and Simulations <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "This blog explores advanced statistical analyses built around principled model-based inference, focusing on how complex data structures are handled through modern regression frameworks. The analyses examine generalized linear models, linear and generalized mixed-effects models, and hierarchical formulations to account for non-Gaussian responses, dependence, and multilevel structure. Emphasis is placed on bias-reduced, penalized, and Bayesian estimation, simulation-based inference and bootstrap methods, likelihood- and resampling-based model comparison, and rigorous model diagnostics. Nonlinear effects are studied through spline-based modeling, with careful attention to residual behavior, uncertainty quantification, and the consequences of modeling assumptions for interpretation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://kostasbanos.github.io/Advanced_Linear_Models/Project_4.html", "_blank");
+          
+        },
       },{id: "news-excited-to-begin-my-master-s-in-statistics-at-mcmaster-university-with-full-scholarship",
           title: 'Excited to begin my Master’s in Statistics at McMaster University with full scholarship!...',
           description: "",
