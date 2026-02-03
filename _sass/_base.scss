@@ -230,6 +230,9 @@ ul.task-list input[type="checkbox"] {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 
   a {
     color: inherit;
