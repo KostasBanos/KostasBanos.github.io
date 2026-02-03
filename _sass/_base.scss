@@ -244,6 +244,25 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// -----------------------------------------------------------------------------
+// Typography: full justification (site-wide content)
+// -----------------------------------------------------------------------------
+// Apply justification to the main content area across ALL pages/posts,
+// without affecting the navbar/header/footer.
+.container[role="main"] {
+  p,
+  li,
+  blockquote,
+  figcaption,
+  .more-info,
+  td,
+  th {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
+}
+
 // Navbar customization
 
 .navbar {
