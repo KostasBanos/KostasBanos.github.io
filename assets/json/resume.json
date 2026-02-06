@@ -180,6 +180,13 @@
 
   "presentations": [
     {
+      "name": "Power-Law Non-Parametric Temporal Models for Continuous-Time Document Streams",
+      "description": "Statistics Seminar talk (Chair: Dr. Noah Forman)",
+      "url": "https://math.mcmaster.ca/events/statistics-seminar-kostas-banos-mcmaster-university/",
+      "releaseDate": "2026-02-05",
+      "highlights": ["Department of Mathematics and Statistics, McMaster University (Hamilton, ON, Canada)"]
+    },
+    {
       "name": "Power-Law Nonparametric Bayesian Models for Continuous-Time Document Streams",
       "description": "Thesis Defence presentation",
       "url": "",
