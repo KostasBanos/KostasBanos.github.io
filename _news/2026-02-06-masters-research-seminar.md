@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Presented my Master’s research at the McMaster Statistics Seminar
-date: 2026-02-06
+date: 2026-02-05
 inline: true
 related_posts: false
 ---
