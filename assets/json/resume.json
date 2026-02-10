@@ -30,6 +30,20 @@
 
   "work": [
     {
+      "name": "Vector Institute for Artificial Intelligence",
+      "position": "Research Intern",
+      "url": "https://vectorinstitute.ai",
+      "startDate": "2026-05-01",
+      "endDate": "2026-08-31",
+      "summary": "Toronto, ON, Canada",
+      "highlights": [
+        "Conduct research at the intersection of interactive machine learning, machine learning theory, and fairness, with an emphasis on theoretically grounded and responsible AI methods",
+        "Develop and analyze learning frameworks that incorporate human feedback and interaction, bridging statistical theory and practical deployment",
+        "Study fairness-aware learning objectives and constraints, focusing on principled algorithmic design and evaluation",
+        "Collaborate with researchers across academia and industry on foundational and applied machine learning problems"
+      ]
+    },
+    {
       "name": "McMaster University – Department of Mathematics and Statistics",
       "position": "Graduate Researcher",
       "url": "https://www.mcmaster.ca/",
