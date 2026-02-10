@@ -28,6 +28,8 @@ I am a Ph.D. candidate in Statistics at <a href="https://math.mcmaster.ca/" targ
 
 My research focuses on developing principled probabilistic methods for complex data. In my master’s thesis, I proposed a novel modeling framework for continuous-time document streams and implemented scalable inference methods on large-scale datasets.
 
+This summer, I will be joining the <a href="https://vectorinstitute.ai" target="_blank" rel="noopener noreferrer">Vector Institute</a> as a Research Intern, working at the intersection of interactive machine learning, machine learning theory, and fairness in machine learning.
+
 I am broadly interested in the theoretical foundations of machine learning and AI, and in developing methods that combine mathematical rigor with practical relevance. I also have experience with scientific discovery using symbolic regression, academic presentations, and collaborative research environments, including <a href="https://research.ibm.com/" target="_blank" rel="noopener noreferrer">IBM Research</a>, where I developed a strong interest in automated scientific discovery.
 
 <div style="margin-top: 5rem;"></div>
